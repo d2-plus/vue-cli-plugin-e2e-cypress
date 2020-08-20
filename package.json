@@ -1,0 +1,34 @@
+{
+  "name": "@d2-plus/vue-cli-plugin-e2e-cypress",
+  "version": "4.5.3-4.9.0",
+  "description": "e2e-cypress plugin for vue-cli",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vuejs/vue-cli.git",
+    "directory": "packages/@vue/cli-plugin-e2e-cypress"
+  },
+  "keywords": [
+    "vue",
+    "cli",
+    "e2e-cypress"
+  ],
+  "author": "Evan You",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vuejs/vue-cli/issues"
+  },
+  "homepage": "https://github.com/vuejs/vue-cli/tree/dev/packages/@vue/cli-plugin-e2e-cypress#readme",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@vue/cli-shared-utils": "^4.5.3",
+    "cypress": "4.9.0",
+    "eslint-plugin-cypress": "^2.10.3"
+  },
+  "peerDependencies": {
+    "@vue/cli-service": "^3.0.0 || ^4.0.0-0"
+  },
+  "gitHead": "a1ee583ede9e9feb85ab2a44927da49422d48e18"
+}
